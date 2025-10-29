@@ -11,7 +11,7 @@ const Gallery = () => {
     {
       title: 'Industrial Experience',
       description: 'Work experience at JK Knit Composite Ltd',
-      image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&auto=format&fit=crop',
+      image: '"C:\Users\Asus\Downloads\Compressed\portfolio\WhatsApp Image 2025-10-29 at 02.05.46_af6a4e99.jpg"auto=format&fit=crop',
     },
     {
       title: 'Knitting Department',
