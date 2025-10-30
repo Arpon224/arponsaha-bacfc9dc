@@ -9,6 +9,18 @@ import defectClassification from '@/assets/gallery/industrial-defect-classificat
 import dyeingMachine from '@/assets/gallery/industrial-dyeing-machine.jpg';
 import factoryFloor from '@/assets/gallery/industrial-factory-floor.jpg';
 
+// Import university project images
+import researchFramework from '@/assets/gallery/university-research-framework.png';
+import measurementModel from '@/assets/gallery/university-measurement-model.png';
+import hypothesisResults from '@/assets/gallery/university-hypothesis-results.png';
+
+// Import club activity images
+import languageMovement from '@/assets/gallery/club-language-movement.jpg';
+import culturalEvent from '@/assets/gallery/club-cultural-event.jpg';
+import literatureFest from '@/assets/gallery/club-literature-fest.jpg';
+import outdoorEvent from '@/assets/gallery/club-outdoor-event.jpeg';
+import culturalCelebration from '@/assets/gallery/club-cultural-celebration.jpg';
+
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
@@ -22,12 +34,16 @@ const Gallery = () => {
       { name: 'Factory Production Floor', image: factoryFloor },
     ],
     'University Projects': [
-      // Add your university project photos here
-      { name: 'Project 1', image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&auto=format&fit=crop' },
+      { name: 'Conceptual Research Framework', image: researchFramework },
+      { name: 'Measurement Model Analysis', image: measurementModel },
+      { name: 'Hypothesis Testing Results', image: hypothesisResults },
     ],
     'Club Activities': [
-      // Add your club activity photos here
-      { name: 'Activity 1', image: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&auto=format&fit=crop' },
+      { name: 'Language Movement Day', image: languageMovement },
+      { name: 'Cultural Event Performance', image: culturalEvent },
+      { name: 'BUTEX Literature Fest', image: literatureFest },
+      { name: 'Outdoor Club Gathering', image: outdoorEvent },
+      { name: 'Cultural Celebration', image: culturalCelebration },
     ],
     'Certifications': [
       // Add your certification photos here
