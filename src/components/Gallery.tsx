@@ -99,7 +99,7 @@ const Gallery = () => {
         {/* Lightbox Dialog */}
         <Dialog open={!!selectedImage} onOpenChange={() => setSelectedImage(null)}>
           <DialogContent className="max-w-4xl p-0 border-primary">
-            {selectedImage && <img src={selectedImage} alt="Gallery item" className="w-full h-auto" />}
+            {selectedImage}
           </DialogContent>
         </Dialog>
       </div>
