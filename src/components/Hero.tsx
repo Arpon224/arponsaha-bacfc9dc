@@ -33,6 +33,11 @@ const Hero = () => {
             })}>
                 View Experience
               </Button>
+              <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground" asChild>
+                <a href="/Arpon_Saha_Resume.pdf" target="_blank" rel="noopener noreferrer">
+                  Resume
+                </a>
+              </Button>
             </div>
 
             <div className="flex items-center gap-6 pt-4">
