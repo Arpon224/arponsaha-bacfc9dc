@@ -23,7 +23,7 @@ const Hero = () => {
               in knit production, dyeing, testing, and merchandising coordination.
             </p>
 
-            <div className="flex flex-wrap gap-4 pt-4">
+            <div className="flex gap-4 pt-4">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-medium">
                 <Mail className="mr-2 h-5 w-5" />
                 Get In Touch
@@ -38,18 +38,6 @@ const Hero = () => {
                   Resume
                 </a>
               </Button>
-            </div>
-
-            <div className="flex items-center gap-6 pt-4">
-              <a href="https://www.linkedin.com/in/arponsaha/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
-                <Linkedin size={24} />
-              </a>
-              <a href="mailto:arponbutextem65@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
-                <Mail size={24} />
-              </a>
-              <a href="tel:+8801789849716" className="text-muted-foreground hover:text-primary transition-colors">
-                <Phone size={24} />
-              </a>
             </div>
           </div>
 
