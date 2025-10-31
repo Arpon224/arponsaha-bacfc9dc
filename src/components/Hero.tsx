@@ -20,7 +20,7 @@ const Hero = () => {
             </div>
             
             <div className="relative animate-fade-in">
-              <div className="relative rounded-2xl overflow-hidden border-2 border-primary/30 shadow-2xl w-48 h-48 sm:w-56 sm:h-56">
+              <div className="relative rounded-2xl overflow-hidden border-2 border-primary/30 shadow-2xl w-56 h-56 sm:w-72 sm:h-72">
                 <img 
                   src={profilePhoto} 
                   alt="Arpon Saha - Textile Engineer" 
