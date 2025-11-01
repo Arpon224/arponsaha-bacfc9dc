@@ -82,18 +82,21 @@ const Education = () => {
               <Award className="text-primary" size={32} />
               Certifications
             </h3>
-            <Card className="bg-card border-border hover:border-primary transition-all duration-300">
-              <CardContent className="pt-6">
-                <ul className="space-y-4">
-                  {certifications.map((cert, index) => (
-                    <li key={index} className="flex items-start text-muted-foreground">
-                      <span className="text-primary mr-3 mt-1">✓</span>
-                      <span>{cert}</span>
-                    </li>
-                  ))}
-                </ul>
-              </CardContent>
-            </Card>
+            <div className="grid gap-4">
+              {certifications.map((cert, index) => (
+                <Card 
+                  key={index}
+                  className="bg-gradient-to-r from-primary/5 to-primary/10 border-primary/30 hover:border-primary hover:shadow-lg transition-all duration-300"
+                >
+                  <CardContent className="pt-6">
+                    <div className="flex items-start gap-3">
+                      <Award className="text-primary shrink-0 mt-1" size={20} />
+                      <span className="text-foreground font-medium">{cert}</span>
+                    </div>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
           </div>
         </div>
       </div>
