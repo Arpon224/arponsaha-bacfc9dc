@@ -13,6 +13,7 @@ import factoryFloor from '@/assets/gallery/industrial-factory-floor.jpg';
 import researchFramework from '@/assets/gallery/university-research-framework.png';
 import measurementModel from '@/assets/gallery/university-measurement-model.png';
 import hypothesisResults from '@/assets/gallery/university-hypothesis-results.png';
+import paperHyacinth from '@/assets/gallery/university-paper-hyacinth.jpg';
 
 // Import club activity images
 import languageMovement from '@/assets/gallery/club-language-movement.jpg';
@@ -63,6 +64,7 @@ const Gallery = () => {
       { name: 'Conceptual Research Framework', image: researchFramework },
       { name: 'Measurement Model Analysis', image: measurementModel },
       { name: 'Hypothesis Testing Results', image: hypothesisResults },
+      { name: 'Making paper from water hyacinth', image: paperHyacinth },
     ],
     'Club Activities': [
       { name: 'Language Movement Day', image: languageMovement },

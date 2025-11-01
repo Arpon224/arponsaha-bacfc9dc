@@ -5,18 +5,17 @@ const Hero = () => {
   return <section id="home" className="min-h-screen flex items-center justify-center pt-20 px-4 sm:px-6 lg:px-8 relative">
       <div className="container mx-auto">
         <div className="space-y-3 animate-slide-in">
-          <div className="inline-block">
-            <span className="px-4 py-2 bg-primary/10 border border-primary text-primary rounded-full text-sm font-medium">
-              Textile Engineer
-            </span>
-          </div>
-
           <div className="flex items-center gap-12 flex-col sm:flex-row">
             <div className="flex-1">
-              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-3">
+              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-2">
                 <span className="text-foreground">ARPON </span>
                 <span className="text-primary">SAHA</span>
               </h1>
+              <div className="inline-block mb-3">
+                <span className="px-4 py-2 bg-primary/10 border border-primary text-primary rounded-full text-sm font-medium">
+                  Textile Engineer
+                </span>
+              </div>
               <p className="text-lg text-muted-foreground max-w-xl leading-relaxed">
                 A technically skilled and management-focused Textile Engineering graduate with hands-on industrial experience 
                 in knit production, dyeing, testing, and merchandising coordination.
