@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arpon Saha - Portfolio</title>
+  <meta name="description" content="Professional portfolio of Arpon Saha, a technically skilled Textile Engineering graduate specializing in production, merchandising, and supply chain optimization.">
+  <meta name="author" content="Arpon Saha">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Arpon Saha - Portfolio">
+  <meta property="og:description" content="Professional portfolio of Arpon Saha, a technically skilled Textile Engineering graduate specializing in production, merchandising, and supply chain optimization.">
+  <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png">
+  
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@lovable_dev">
+  <meta name="twitter:title" content="Arpon Saha - Portfolio">
+  <meta name="twitter:description" content="Professional portfolio of Arpon Saha, a technically skilled Textile Engineering graduate specializing in production, merchandising, and supply chain optimization.">
+  <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="https://storage.googleapis.com/gpt-engineer-file-uploads/2WXTgu8nUOdSyY8RkU3CfIfY7Mv1/uploads/1761912923106-Arpon.jpg">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <div class="nav-content">
+        <a href="#home" class="nav-logo">
+          <span class="logo-first">ARPON </span>
+          <span class="logo-last">SAHA</span>
+        </a>
+        
+        <div class="nav-links desktop-nav">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#education" class="nav-link">Education</a>
+          <a href="#gallery" class="nav-link">Gallery</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+          <i data-lucide="menu" id="menuIcon"></i>
+          <i data-lucide="x" id="closeIcon" style="display: none;"></i>
+        </button>
+      </div>
+      
+      <div class="mobile-nav" id="mobileNav">
+        <a href="#home" class="nav-link mobile-link">Home</a>
+        <a href="#about" class="nav-link mobile-link">About</a>
+        <a href="#experience" class="nav-link mobile-link">Experience</a>
+        <a href="#education" class="nav-link mobile-link">Education</a>
+        <a href="#gallery" class="nav-link mobile-link">Gallery</a>
+        <a href="#contact" class="nav-link mobile-link">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Social Sidebar -->
+  <div class="social-sidebar">
+    <a href="https://www.linkedin.com/in/arponsaha/" target="_blank" rel="noopener noreferrer" class="social-link linkedin" aria-label="LinkedIn">
+      <i data-lucide="linkedin"></i>
+    </a>
+    <a href="mailto:arponbutextem65@gmail.com" class="social-link email" aria-label="Email">
+      <i data-lucide="mail"></i>
+    </a>
+    <a href="tel:+8801789849716" class="social-link phone" aria-label="Phone">
+      <i data-lucide="phone"></i>
+    </a>
+  </div>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="hero-content animate-slide-in">
+          <div class="hero-grid">
+            <div class="hero-text">
+              <h1 class="hero-title">
+                <span class="title-first">ARPON </span>
+                <span class="title-last">SAHA</span>
+              </h1>
+              <div class="hero-badge">
+                <span class="badge">Textile Engineer</span>
+              </div>
+              <p class="hero-description">
+                A technically skilled and management-focused Textile Engineering graduate with hands-on industrial experience 
+                in knit production, dyeing, testing, and merchandising coordination.
+              </p>
+            </div>
+            
+            <div class="hero-image animate-fade-in">
+              <div class="profile-image-wrapper">
+                <img src="src/assets/profile-photo.jpg" alt="Arpon Saha - Textile Engineer" class="profile-image">
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-buttons">
+            <a href="mailto:arponbutextem65@gmail.com" class="btn btn-primary">
+              <i data-lucide="mail"></i>
+              Get In Touch
+            </a>
+            <button class="btn btn-outline" onclick="scrollToSection('experience')">
+              View Experience
+            </button>
+            <a href="/Arpon_Saha_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+              Resume
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="scroll-indicator">
+        <i data-lucide="chevron-down"></i>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-alt">
+      <div class="container">
+        <div class="section-header animate-slide-up">
+          <h2 class="section-title">
+            About <span class="text-primary">Me</span>
+          </h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="card card-hover animate-slide-in">
+            <div class="card-header">
+              <h3 class="card-title">
+                <i data-lucide="lightbulb" class="icon-primary"></i>
+                Professional Summary
+              </h3>
+            </div>
+            <div class="card-content">
+              <p class="mb-4">
+                A technically skilled and management-focused Textile Engineering graduate with hands-on industrial 
+                experience in knit production, dyeing, testing, and merchandising coordination.
+              </p>
+              <p class="mb-4">
+                Adept at integrating technical expertise with management insight to optimize production efficiency, 
+                quality, and sustainability. Demonstrated leadership through key roles in university clubs and creative 
+                projects, reflecting strong communication, teamwork, and innovation skills.
+              </p>
+              <div class="passions">
+                <h4 class="passion-title">Passionate About:</h4>
+                <ul class="passion-list">
+                  <li><span class="bullet">▸</span><span>Sustainable Supply Chain Management & Lean Management</span></li>
+                  <li><span class="bullet">▸</span><span>Data Analytics & Data-driven problem-solving</span></li>
+                  <li><span class="bullet">▸</span><span>Production Planning & Quality Control</span></li>
+                  <li><span class="bullet">▸</span><span>Merchandising Coordination</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card card-hover animate-slide-in">
+            <div class="card-header">
+              <h3 class="card-title">
+                <i data-lucide="target" class="icon-primary"></i>
+                Career Objective
+              </h3>
+            </div>
+            <div class="card-content">
+              <ul class="objective-list">
+                <li><span class="bullet">▸</span><span>Build a dynamic career in the global textile and apparel industry</span></li>
+                <li><span class="bullet">▸</span><span>Apply technical expertise in production, merchandising, and supply chain optimization</span></li>
+                <li><span class="bullet">▸</span><span>Continuously develop innovative and sustainable solutions</span></li>
+                <li><span class="bullet">▸</span><span>Create measurable business value through strategic initiatives</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+      <div class="container">
+        <div class="section-header animate-slide-up">
+          <h2 class="section-title">
+            Work <span class="text-primary">Experience</span>
+          </h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="experience-content">
+          <div class="card card-hover animate-slide-in">
+            <div class="card-header">
+              <h3 class="experience-company">JK Knit Composite Ltd</h3>
+              <div class="experience-meta">
+                <div class="meta-item">
+                  <i data-lucide="briefcase" class="icon-primary"></i>
+                  <span class="meta-label">Internship</span>
+                </div>
+                <div class="meta-row">
+                  <div class="meta-item">
+                    <i data-lucide="map-pin" class="icon-primary"></i>
+                    <span>Savar, Dhaka</span>
+                  </div>
+                  <div class="meta-item">
+                    <i data-lucide="calendar" class="icon-primary"></i>
+                    <span>February 2025 – March 2025</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-content">
+              <ul class="responsibility-list">
+                <li><span class="bullet">▸</span><span>Knitting Production of Variable Fabric Structure, R&D Department</span></li>
+                <li><span class="bullet">▸</span><span>Execution of Knit Fabric Dyeing process with Finishing and Inspection</span></li>
+                <li><span class="bullet">▸</span><span>Execution of Physical Testing Lab, Chemical Testing Lab</span></li>
+                <li><span class="bullet">▸</span><span>Supported the Merchandising Department in sample development and client coordination</span></li>
+                <li><span class="bullet">▸</span><span>Supported merchandising for 3 international buyers (Mango, NEXT) ensuring on-time delivery</span></li>
+                <li><span class="bullet">▸</span><span>Assisted IE team in workflow analysis, contributing to a 10% improvement in process efficiency</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section">
+      <div class="container">
+        <div class="section-header animate-slide-up">
+          <h2 class="section-title">
+            Skills & <span class="text-primary">Competencies</span>
+          </h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="skills-grid">
+          <div class="card card-hover animate-slide-in">
+            <div class="card-header">
+              <h3 class="card-title">
+                <i data-lucide="code" class="icon-primary"></i>
+                Technical & Computer Skills
+              </h3>
+            </div>
+            <div class="card-content">
+              <div class="skills-tags">
+                <span class="skill-tag">Adobe Photoshop</span>
+                <span class="skill-tag">Adobe Illustrator</span>
+                <span class="skill-tag">Canva</span>
+                <span class="skill-tag">Microsoft Word</span>
+                <span class="skill-tag">Microsoft Excel</span>
+                <span class="skill-tag">Microsoft PowerPoint</span>
+                <span class="skill-tag">Da Vinci Resolve</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card card-hover animate-slide-in">
+            <div class="card-header">
+              <h3 class="card-title">
+                <i data-lucide="message-square" class="icon-primary"></i>
+                Soft Skills
+              </h3>
+            </div>
+            <div class="card-content">
+              <div class="skills-tags">
+                <span class="skill-tag">Leadership</span>
+                <span class="skill-tag">Team Collaboration</span>
+                <span class="skill-tag">Strategic Time Management</span>
+                <span class="skill-tag">Adaptability</span>
+                <span class="skill-tag">Professional Discipline</span>
+                <span class="skill-tag">Effective Communication</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card card-hover animate-slide-in">
+            <div class="card-header">
+              <h3 class="card-title">
+                <i data-lucide="languages" class="icon-primary"></i>
+                Languages
+              </h3>
+            </div>
+            <div class="card-content">
+              <div class="skills-tags">
+                <span class="skill-tag">Bangla</span>
+                <span class="skill-tag">English</span>
+                <span class="skill-tag">Hindi</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section section-alt">
+      <div class="container">
+        <div class="section-header animate-slide-up">
+          <h2 class="section-title">
+            Education & <span class="text-primary">Certifications</span>
+          </h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="education-content">
+          <div class="education-category animate-slide-in">
+            <h3 class="category-title">
+              <i data-lucide="graduation-cap" class="icon-primary"></i>
+              Education
+            </h3>
+            <div class="education-list">
+              <div class="card card-hover">
+                <div class="card-header">
+                  <h4 class="education-institution">Bangladesh University of Textiles</h4>
+                </div>
+                <div class="card-content">
+                  <p class="education-degree">BSc in Textile Engineering</p>
+                  <p class="education-specialization">Specialized in Textile Engineering Management (TEM)</p>
+                  <div class="education-details">
+                    <span>2020-2025</span>
+                    <span class="education-grade">CGPA: 3.37/4.00</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card card-hover">
+                <div class="card-header">
+                  <h4 class="education-institution">Gaibandha Govt College</h4>
+                </div>
+                <div class="card-content">
+                  <p class="education-degree">Higher Secondary Certificate</p>
+                  <div class="education-details">
+                    <span>2018-2019</span>
+                    <span class="education-grade">GPA: 5.00/5.00</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card card-hover">
+                <div class="card-header">
+                  <h4 class="education-institution">Gaibandha Govt College</h4>
+                </div>
+                <div class="card-content">
+                  <p class="education-degree">Secondary School Certificate</p>
+                  <div class="education-details">
+                    <span>2016-2017</span>
+                    <span class="education-grade">GPA: 5.00/5.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="education-category animate-slide-in">
+            <h3 class="category-title">
+              <i data-lucide="award" class="icon-primary"></i>
+              Certifications
+            </h3>
+            <div class="certifications-grid">
+              <div class="card card-cert">
+                <div class="card-content cert-content">
+                  <i data-lucide="award" class="cert-icon"></i>
+                  <span>Advanced Lean Manufacturing in the T&C sector - ITC SME Trade Academy 2025</span>
+                </div>
+              </div>
+              <div class="card card-cert">
+                <div class="card-content cert-content">
+                  <i data-lucide="award" class="cert-icon"></i>
+                  <span>Global Human Resources Professional - Udemy 2025</span>
+                </div>
+              </div>
+              <div class="card card-cert">
+                <div class="card-content cert-content">
+                  <i data-lucide="award" class="cert-icon"></i>
+                  <span>Data Science and Analytics - HP Life 2025</span>
+                </div>
+              </div>
+              <div class="card card-cert">
+                <div class="card-content cert-content">
+                  <i data-lucide="award" class="cert-icon"></i>
+                  <span>Basic Graphics Design - Muktopaath 2021</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Thesis Section -->
+    <section class="thesis-section section-alt">
+      <div class="container">
+        <div class="section-header animate-slide-up">
+          <h2 class="section-title">
+            Thesis <span class="text-primary">Project</span>
+          </h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="thesis-content animate-slide-in">
+          <div class="card card-hover">
+            <div class="card-header">
+              <h3 class="thesis-title">
+                <i data-lucide="book-open" class="icon-primary"></i>
+                <span>Nexus between Green Supply Chain Management and Sustainable Firm Performance: The Role of Collaborative Capability, Digital Technology Adoption and Corporate Information Transparency</span>
+              </h3>
+            </div>
+            <div class="card-content">
+              <h4 class="findings-title">Key Findings:</h4>
+              <ul class="findings-list">
+                <li><span class="bullet">•</span><span>Validated the positive link between Green Supply Chain Management (GSCM) and Sustainable Firm Performance (SFP).</span></li>
+                <li><span class="bullet">•</span><span>Confirmed Digital Technology Adoption (DTA) as a vital mediator, proving digitalization is key to translating green practices into performance gains.</span></li>
+                <li><span class="bullet">•</span><span>Established Collaborative Capabilities (CC) as a crucial mediator, emphasizing that strong, trust-based partnerships drive sustainability success.</span></li>
+                <li><span class="bullet">•</span><span>Provided a novel model and data-driven insights for the textile industry to enhance sustainability through strategic technology and collaboration.</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section class="activities-section section-alt">
+      <div class="container">
+        <div class="section-header animate-slide-up">
+          <h2 class="section-title">
+            Activities & <span class="text-primary">Achievements</span>
+          </h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="activities-content">
+          <div class="activities-category animate-slide-in">
+            <h3 class="category-title">
+              <i data-lucide="users" class="icon-primary"></i>
+              Leadership Activities
+            </h3>
+            <div class="activities-grid">
+              <div class="card card-hover">
+                <div class="card-header">
+                  <h4 class="activity-role">Former General Secretary</h4>
+                  <p class="activity-org">BUTEX Literature Club</p>
+                </div>
+                <div class="card-content">
+                  <ul class="achievement-list">
+                    <li><span class="bullet">▸</span><span>Successfully Organized Rabindra Sondhya</span></li>
+                    <li><span class="bullet">▸</span><span>Organized Lit Fest</span></li>
+                    <li><span class="bullet">▸</span><span>Organized Folk Fest and many other events</span></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="card card-hover">
+                <div class="card-header">
+                  <h4 class="activity-role">Former Co-Leader</h4>
+                  <p class="activity-org">ARTEX (Art & Photography Club of BUTEX)</p>
+                </div>
+                <div class="card-content">
+                  <ul class="achievement-list">
+                    <li><span class="bullet">▸</span><span>Successfully Organized Ovyarthonay Aloron</span></li>
+                    <li><span class="bullet">▸</span><span>Organized Nirobotay kolorob</span></li>
+                    <li><span class="bullet">▸</span><span>Organized Graffiti Competition</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="activities-category animate-slide-in">
+            <h3 class="category-title">
+              <i data-lucide="trophy" class="icon-primary"></i>
+              Key Achievements
+            </h3>
+            <div class="card card-hover">
+              <div class="card-content">
+                <div class="achievements-grid">
+                  <div class="achievement-item">
+                    <span class="trophy-emoji">🏆</span>
+                    <span>Best Artist at KPR Art Exhibition</span>
+                  </div>
+                  <div class="achievement-item">
+                    <span class="trophy-emoji">🏆</span>
+                    <span>Runners up in Digital Art Segment at Intra-Departmental Fest</span>
+                  </div>
+                  <div class="achievement-item">
+                    <span class="trophy-emoji">🏆</span>
+                    <span>Merit Scholarship in BUTEX</span>
+                  </div>
+                  <div class="achievement-item">
+                    <span class="trophy-emoji">🏆</span>
+                    <span>SSC and JSC Board Scholarship</span>
+                  </div>
+                  <div class="achievement-item">
+                    <span class="trophy-emoji">🏆</span>
+                    <span>Best Musical Instrument Player in College Annual Fest</span>
+                  </div>
+                  <div class="achievement-item">
+                    <span class="trophy-emoji">🏆</span>
+                    <span>Completed a certified 2-month industrial internship at JK Knit Composite Ltd. (2025)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+      <div class="container">
+        <div class="section-header animate-slide-up">
+          <h2 class="section-title">
+            Photo <span class="text-primary">Gallery</span>
+          </h2>
+          <div class="title-underline"></div>
+          <p class="section-description">
+            A visual journey through my professional experiences, projects, and achievements
+          </p>
+        </div>
+
+        <div class="gallery-tabs">
+          <div class="tab-buttons">
+            <button class="tab-btn active" data-tab="industrial">Industrial Experience</button>
+            <button class="tab-btn" data-tab="university">University Projects</button>
+            <button class="tab-btn" data-tab="club">Club Activities</button>
+            <button class="tab-btn" data-tab="certifications">Certifications</button>
+            <button class="tab-btn" data-tab="campus">Campus Life</button>
+            <button class="tab-btn" data-tab="art">Art & Photography</button>
+          </div>
+
+          <div class="tab-content active" id="industrial">
+            <div class="gallery-grid">
+              <div class="gallery-item">
+                <img src="src/assets/gallery/industrial-knitting-machine.jpg" alt="Circular Knitting Machine">
+                <h4>Circular Knitting Machine</h4>
+              </div>
+              <div class="gallery-item">
+                <img src="src/assets/gallery/industrial-defect-classification.jpg" alt="Defect Classification Board">
+                <h4>Defect Classification Board</h4>
+              </div>
+              <div class="gallery-item">
+                <img src="src/assets/gallery/industrial-dyeing-machine.jpg" alt="Industrial Dyeing Equipment">
+                <h4>Industrial Dyeing Equipment</h4>
+              </div>
+              <div class="gallery-item">
+                <img src="src/assets/gallery/industrial-factory-floor.jpg" alt="Factory Production Floor">
+                <h4>Factory Production Floor</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-content" id="university">
+            <div class="gallery-grid">
+              <div class="gallery-item">
+                <img src="src/assets/gallery/university-research-framework.png" alt="Conceptual Research Framework">
+                <h4>Conceptual Research Framework</h4>
+              </div>
+              <div class="gallery-item">
+                <img src="src/assets/gallery/university-measurement-model.png" alt="Measurement Model Analysis">
+                <h4>Measurement Model Analysis</h4>
+              </div>
+              <div class="gallery-item">
+                <img src="src/assets/gallery/university-hypothesis-results.png" alt="Hypothesis Testing Results">
+                <h4>Hypothesis Testing Results</h4>
+              </div>
+              <div class="gallery-item">
+                <img src="src/assets/gallery/university-paper-hyacinth.jpg" alt="Making paper from water hyacinth">
+                <h4>Making paper from water hyacinth</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-content" id="club">
+            <div class="gallery-grid">
+              <div class="gallery-item">
+                <img src="src/assets/gallery/club-language-movement.jpg" alt="Language Movement Day">
+                <h4>Language Movement Day</h4>
+              </div>
+              <div class="gallery-item">
+                <img src="src/assets/gallery/club-cultural-event.jpg" alt="Cultural Event Performance">
+                <h4>Cultural Event Performance</h4>
+              </div>
+              <div class="gallery-item">
+                <img src="src/assets/gallery/club-literature-fest.jpg" alt="BUTEX Literature Fest">
+                <h4>BUTEX Literature Fest</h4>
+              </div>
+              <div class="gallery-item">
+                <img src="src/assets/gallery/club-outdoor-event.jpeg" alt="Outdoor Club Gathering">
+                <h4>Outdoor Club Gathering</h4>
+              </div>
+              <div class="gallery-item">
+                <img src="src/assets/gallery/club-cultural-celebration.jpg" alt="Cultural Celebration">
+                <h4>Cultural Celebration</h4>
+              </div>
+              <div class="gallery-item">
+                <img src="src/assets/gallery/club-film-fest-award-1.jpg" alt="Film Festival Award Ceremony">
+                <h4>Film Festival Award Ceremony</h4>
+              </div>
+              <div class="gallery-item">
+                <img src="src/assets/gallery/club-film-fest-group.jpg" alt="Film Festival Group Photo">
+                <h4>Film Festival Group Photo</h4>
+              </div>
+              <div class="gallery-item">
+                <img src="src/assets/gallery/club-film-fest-award-2.jpg" alt="Film Festival Achievement">
+                <h4>Film Festival Achievement</h4>
+              </div>
+              <div class="gallery-item">
+                <img src="src/assets/gallery/club-film-screening.jpg" alt="Film Screening Event">
+                <h4>Film Screening Event</h4>
+              </div>
+              <div class="gallery-item">
+                <img src="src/assets/gallery/club-poetry-circle.jpg" alt="Poetry Circle Discussion">
+                <h4>Poetry Circle Discussion</h4>
+              </div>
+              <div class="gallery-item">
+                <img src="src/assets/gallery/club-theatre-group.jpg" alt="Theatre Group Performance">
+                <h4>Theatre Group Performance</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-content" id="certifications">
+            <div class="gallery-grid">
+              <div class="gallery-item">
+                <img src="src/assets/gallery/cert-graphics-design.png" alt="Graphics Design Certificate">
+                <h4>Graphics Design Certificate</h4>
+              </div>
+              <div class="gallery-item">
+                <img src="src/assets/gallery/cert-hp-data-science.png" alt="HP Data Science & Analytics">
+                <h4>HP Data Science & Analytics</h4>
+              </div>
+              <div class="gallery-item">
+                <img src="src/assets/gallery/cert-hr-professional.png" alt="Global HR Professional">
+                <h4>Global HR Professional</h4>
+              </div>
+              <div class="gallery-item">
+                <img src="src/assets/gallery/cert-lean-manufacturing.png" alt="Lean Manufacturing (ITC)">
+                <h4>Lean Manufacturing (ITC)</h4>
+              </div>
+              <div class="gallery-item">
+                <img src="src/assets/gallery/cert-microsoft-office.png" alt="Microsoft Office Starter">
+                <h4>Microsoft Office Starter</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-content" id="campus">
+            <div class="gallery-grid">
+              <div class="gallery-item">
+                <img src="src/assets/gallery/campus-group-photo.jpg" alt="Traditional Day Group Photo">
+                <h4>Traditional Day Group Photo</h4>
+              </div>
+              <div class="gallery-item">
+                <img src="src/assets/gallery/campus-cultural-frame.jpg" alt="Cultural Photo Frame">
+                <h4>Cultural Photo Frame</h4>
+              </div>
+              <div class="gallery-item">
+                <img src="src/assets/gallery/campus-formal-group.jpg" alt="Formal Group Photo">
+                <h4>Formal Group Photo</h4>
+              </div>
+              <div class="gallery-item">
+                <img src="src/assets/gallery/campus-movie-wall.jpg" alt="Movie Wall Gathering">
+                <h4>Movie Wall Gathering</h4>
+              </div>
+              <div class="gallery-item">
+                <img src="src/assets/gallery/campus-traditional-gathering.jpg" alt="Traditional Gathering">
+                <h4>Traditional Gathering</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-content" id="art">
+            <div class="gallery-grid">
+              <div class="gallery-item">
+                <img src="src/assets/gallery/art-photo-4.jpg" alt="Nature Photography">
+                <h4>Nature Photography</h4>
+              </div>
+              <div class="gallery-item">
+                <img src="src/assets/gallery/art-photo-5.jpg" alt="Landscape Photography">
+                <h4>Landscape Photography</h4>
+              </div>
+              <div class="gallery-item">
+                <img src="src/assets/gallery/art-sunset-photo.jpg" alt="Golden Sunset Capture">
+                <h4>Golden Sunset Capture</h4>
+              </div>
+              <div class="gallery-item">
+                <img src="src/assets/gallery/art-illustration.jpg" alt="Digital Illustration">
+                <h4>Digital Illustration</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-alt">
+      <div class="container">
+        <div class="section-header animate-slide-up">
+          <h2 class="section-title">
+            Get In <span class="text-primary">Touch</span>
+          </h2>
+          <div class="title-underline"></div>
+          <p class="section-description">
+            I'm always open to discussing new opportunities, collaborations, or just having a conversation 
+            about textile engineering and innovation.
+          </p>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-grid animate-slide-in">
+            <div class="card card-hover contact-card">
+              <a href="mailto:arponbutextem65@gmail.com" class="contact-link">
+                <div class="contact-icon-wrapper">
+                  <i data-lucide="mail" class="contact-icon"></i>
+                </div>
+                <div class="contact-info">
+                  <p class="contact-label">Email</p>
+                  <p class="contact-value">arponbutextem65@gmail.com</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="card card-hover contact-card">
+              <a href="tel:+8801789849716" class="contact-link">
+                <div class="contact-icon-wrapper">
+                  <i data-lucide="phone" class="contact-icon"></i>
+                </div>
+                <div class="contact-info">
+                  <p class="contact-label">Phone</p>
+                  <p class="contact-value">+880 1789 849716</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="card card-hover contact-card">
+              <div class="contact-link">
+                <div class="contact-icon-wrapper">
+                  <i data-lucide="map-pin" class="contact-icon"></i>
+                </div>
+                <div class="contact-info">
+                  <p class="contact-label">Location</p>
+                  <p class="contact-value">Dhaka, Bangladesh</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card card-hover contact-card">
+              <a href="https://www.linkedin.com/in/arponsaha/" target="_blank" rel="noopener noreferrer" class="contact-link">
+                <div class="contact-icon-wrapper">
+                  <i data-lucide="linkedin" class="contact-icon"></i>
+                </div>
+                <div class="contact-info">
+                  <p class="contact-label">LinkedIn</p>
+                  <p class="contact-value">linkedin.com/in/arponsaha</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-cta">
+            <a href="mailto:arponbutextem65@gmail.com" class="btn btn-primary">
+              <i data-lucide="mail"></i>
+              Send Me an Email
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3 class="footer-logo">
+            <span class="logo-first">ARPON </span>
+            <span class="logo-last">SAHA</span>
+          </h3>
+          <p class="footer-description">
+            Textile Engineer specializing in production, merchandising, and supply chain optimization.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-connect">
+          <h4 class="footer-title">Connect</h4>
+          <div class="footer-social">
+            <a href="mailto:arponbutextem65@gmail.com">
+              <i data-lucide="mail"></i>
+              <span>Email</span>
+            </a>
+            <a href="tel:+8801789849716">
+              <i data-lucide="phone"></i>
+              <span>Phone</span>
+            </a>
+            <a href="https://www.linkedin.com/in/arponsaha/" target="_blank" rel="noopener noreferrer">
+              <i data-lucide="linkedin"></i>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear"></span> Arpon Saha. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Image Lightbox Modal -->
+  <div class="lightbox" id="lightbox">
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightboxClose">&times;</button>
+      <img src="" alt="Gallery preview" id="lightboxImage">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
