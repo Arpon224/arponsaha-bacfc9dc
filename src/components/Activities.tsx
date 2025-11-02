@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 const Activities = () => {
   const activities = [
     {
-      role: 'General Secretary',
+      role: 'Former General Secretary',
       organization: 'BUTEX Literature Club',
       achievements: [
         'Successfully Organized Rabindra Sondhya',
